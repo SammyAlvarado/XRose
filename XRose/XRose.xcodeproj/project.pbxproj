@@ -101,14 +101,14 @@
 		22EE43C0252AAFC100D9B890 /* XRose */ = {
 			isa = PBXGroup;
 			children = (
-				22EE43C1252AAFC100D9B890 /* AppDelegate.swift */,
-				22EE43C3252AAFC100D9B890 /* SceneDelegate.swift */,
-				22EE43C5252AAFC100D9B890 /* ViewController.swift */,
-				22EE43C7252AAFC100D9B890 /* Main.storyboard */,
-				22EE43CD252AAFC300D9B890 /* Assets.xcassets */,
-				22EE43CF252AAFC300D9B890 /* LaunchScreen.storyboard */,
 				22EE43D2252AAFC300D9B890 /* Info.plist */,
-				22EE43CA252AAFC100D9B890 /* XRose.xcdatamodeld */,
+				22EE43C5252AAFC100D9B890 /* ViewController.swift */,
+				22EE43FA252AB1AB00D9B890 /* Model */,
+				22EE43FB252AB1BC00D9B890 /* View */,
+				22EE43FC252AB1CD00D9B890 /* Controller */,
+				22EE43F7252AB11F00D9B890 /* Storyboard */,
+				22EE43F8252AB13900D9B890 /* Resources */,
+				22EE43F9252AB17200D9B890 /* Core Data */,
 			);
 			path = XRose;
 			sourceTree = "<group>";
@@ -129,6 +129,54 @@
 				22EE43E8252AAFC300D9B890 /* Info.plist */,
 			);
 			path = XRoseUITests;
+			sourceTree = "<group>";
+		};
+		22EE43F7252AB11F00D9B890 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				22EE43C7252AAFC100D9B890 /* Main.storyboard */,
+				22EE43CF252AAFC300D9B890 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		22EE43F8252AB13900D9B890 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				22EE43C1252AAFC100D9B890 /* AppDelegate.swift */,
+				22EE43C3252AAFC100D9B890 /* SceneDelegate.swift */,
+				22EE43CD252AAFC300D9B890 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		22EE43F9252AB17200D9B890 /* Core Data */ = {
+			isa = PBXGroup;
+			children = (
+				22EE43CA252AAFC100D9B890 /* XRose.xcdatamodeld */,
+			);
+			path = "Core Data";
+			sourceTree = "<group>";
+		};
+		22EE43FA252AB1AB00D9B890 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		22EE43FB252AB1BC00D9B890 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		22EE43FC252AB1CD00D9B890 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
